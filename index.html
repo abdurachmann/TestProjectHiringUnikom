@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Istar</title>
+    <style>
+        body {
+            background-color: teal;
+        }
+        
+        .content-first {
+            background-color: wheat;
+            height: auto;
+            margin-top: 1%;
+            border-radius: 50px;
+        }
+        
+        #welcome {
+            margin-left: 5%;
+            text-decoration: underline;
+        }
+        
+        #content {
+            text-indent: 5%;
+        }
+        
+        .caption {
+            font-size: 24px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        
+        .content-image {
+            background-color: white;
+            border-radius: 50px;
+            height: 400px;
+        }
+        
+        #join {
+            margin-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header>
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a href="" class="brand-logo">IStar</a>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <!-- <ul class="right hide-on-med-and-down">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+                <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                </ul> -->
+            </div>
+        </nav>
+    </header>
+
+    <!-- content -->
+    <main>
+        <article>
+            <div class="container">
+                <div class="row content-first">
+                    <div class="col s12 l12">
+                        <h4 id="welcome">Welcome to Istar</h4>
+                        <p id="content">Sumber Daya Manusia merupakan salah satu komponen yang sangat esensial bagi kelangsungan sebuah organisasi atau perusahaan bahkan dalam menjaga keselarasan dalam suatu lingkungan atau komunitas. Hal yang menarik lagi, manusia sebagai
+                            makhluk yang unik dibandingkan dengan makhluk lain di dunia ini karena memiliki keinginan individual, keinginan kelompok, melakukan interaksi dan kerjasama yang dapat melahirkan berbagai fenomena yang menarik. Berbagai kejadian
+                            atau kasus dapat terjadi dalam masa interaksi dalam melakukan tugas yang bisa memiliki dampak bagi kinerja organisasi.. Dan dalam rangka turut serta dalam menyukseskan pembangunan SDM Indonesia di era Industry 4.0 dengan motto
+                            SDM Unggul Indonesia Maju, maka kami dengan brand iStar Indonesia menyediakan jasa pelatihan tenaga-tenaga ahli dalam bidang Teknologi Informatika. Digabungkan dengan Pembangunan Karakter anak didik menjadikan lulusan kami
+                            memiliki profesionalisme serta integritas yang tinggi dalam bekerja. Sehingga besar harapan kami, dapat turut serta memberikan andil bagi kemakmuran bangsa dan negara Indonesia.</p>
+                    </div>
+                </div>
+
+                <div class="row content-image">
+                    <div class="col s12 l4">
+                        <p class="caption">IT Programmer</p>
+                        <img src="images/1.png" alt="IT Programmer" width="300" height="250">
+                    </div>
+                    <div class="col s12 l4">
+                        <p class="caption">Web Design</p>
+                        <img src="images/2.png" alt="IT Programmer" width="300" height="250">
+                    </div>
+                    <div class="col s12 l4">
+                        <p class="caption">IT Consultant</p>
+                        <img src="images/3.png" alt="IT Programmer" width="300" height="250">
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- footer -->
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5>About Me</h5>
+                    <p>iStar Indonesia Is A Brand Name Of PT. Teknologi Gemilang Anak Bangsa</p>
+                </div>
+                <div class="col s12 l4 offset-12">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li><a href="" class="grey-text text-lighteen-3">Facebook</a></li>
+                        <li><a href="" class="grey-text text-lighteen-3">Twitter</a></li>
+                        <li><a href="" class="grey-text text-lighteen-3">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">
+                &copy; Abdu Rachman Ruchendar
+            </div>
+        </div>
+    </footer>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+        });
+    </script>
+</body>
+
+</html>
